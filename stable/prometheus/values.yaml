@@ -208,7 +208,7 @@ initChownData:
 kubeStateMetrics:
   ## If false, kube-state-metrics will not be installed
   ##
-  enabled: true
+  enabled: false
 
   # Defines the serviceAccountName to use when `rbac.create=false`
   serviceAccountName: default
